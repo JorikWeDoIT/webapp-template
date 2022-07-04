@@ -1,23 +1,12 @@
 import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p className="text-red-800">
-          Edit <code>src/App.tsx</code> and save to reload.
+    <div className="bg-neutral-900 h-screen w-screen">
+      <header className="pt-80">
+        <p className="text-white font-bold text-center text-3xl">
+          Welcome to the webapp template of We do IT!
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
